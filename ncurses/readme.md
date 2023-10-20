@@ -1,0 +1,1 @@
+- linux/unix curses libraries and header get.
