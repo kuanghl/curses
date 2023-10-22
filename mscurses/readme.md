@@ -1,0 +1,21 @@
+- 3rd library
+  - [ ] sdl1.x.
+  - [ ] sdl2.x.
+  - [ ] freetype2.
+  - [ ] zlib.
+  - [ ] sdl_ttf.
+  - [ ] openGL.
+
+- system os
+  - macOS.
+    - [ ] vt.
+  - Linux.
+    - [x] vt.
+    - [ ] x11.
+  - Windows.
+    - [x] vt.
+    - [x] wincon.
+    - [x] wingui
+  - DOS.
+  - OS/2.
+  - plan9.

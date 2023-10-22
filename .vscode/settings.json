@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "string.h": "c",
+        "curses.h": "c",
+        "stdlib.h": "c",
+        "time.h": "c"
+    }
+}
