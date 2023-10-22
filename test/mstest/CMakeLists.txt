@@ -45,5 +45,7 @@ target_link_libraries(vt_testcurs ${VT_MSCURSESE_LIBRARIES})
 target_link_libraries(vt_worm ${VT_MSCURSESE_LIBRARIES})
 target_link_libraries(vt_xmas ${VT_MSCURSESE_LIBRARIES})
 
-
+if(WIN32)
+    file(COPY "${MSCURSESE_INCLUDE_DIRS}/../winlib/vt_x64/pdcursesd.dll" DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+endif()
 
