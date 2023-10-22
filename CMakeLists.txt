@@ -1,9 +1,9 @@
 # 指定CMake编译最低要求版本
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 3.1)
 
 # complie
-set(CMAKE_C_FLAGS_RELEASE "-DNDEBUG -fPIC -Wall -Wextra -pedantic -O3 -std=c99 -v")
-set(CMAKE_C_FLAGS_DEBUG "-g -fPIC -Wall -Wextra -pedantic -O0 -v")
+set(CMAKE_C_FLAGS_RELEASE "-DNDEBUG -Wall -pedantic -O3 -std=c99 -v")
+set(CMAKE_C_FLAGS_DEBUG "-g -fPIC -Wall -pedantic -O0 -v")
 set(CMAKE_CXX_FLAGS_RELEASE "-Wall -O2 -std=c++11")
 set(CMAKE_CXX_FLAGS_DEBUG "-g")
 project(curses_pdc)
