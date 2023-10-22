@@ -367,6 +367,13 @@ typedef struct _screen SCREEN;
  *  External Variables
  *
  */
+#if(WIN32)
+   #define PDC_DLL_BUILD 1 //windows
+#else
+   //linux
+#endif
+
+
 
 #ifdef PDC_DLL_BUILD
 # ifdef CURSES_LIBRARY
